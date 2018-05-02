@@ -1,12 +1,12 @@
-cloud:
-  aws:
-    credentials:
-      accessKey: {accessKey}
-      secretKey: {secretKey}
-      instanceProfile: false
-    region:
-      auto: false
-      static: ap-northeast-2
+#cloud:
+#  aws:
+#    credentials:
+#      accessKey: {accessKey}
+#      secretKey: {secretKey}
+#      instanceProfile: false
+#    region:
+#      auto: false
+#      static: ap-northeast-2
 
 server:
   port: 8090
