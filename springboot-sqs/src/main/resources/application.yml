@@ -1,12 +1,16 @@
-#cloud:
-#  aws:
-#    credentials:
-#      accessKey: {accessKey}
-#      secretKey: {secretKey}
-#      instanceProfile: false
-#    region:
-#      auto: false
-#      static: ap-northeast-2
+cloud:
+  aws:
+    credentials:
+      accessKey: {accessKey}
+      secretKey: {secretKey}
+      instanceProfile: false
+    region:
+      auto: false
+      static: ap-northeast-2
+    corePoolSize: 30
+    maxPoolSize : 30
 
 server:
   port: 8090
+
+debug: true
