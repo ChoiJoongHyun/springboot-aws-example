@@ -9,8 +9,10 @@ public class SpringbootSqsApplication {
     public static void main(String[] args) {
         new SpringApplicationBuilder(SpringbootSqsApplication.class)
             .properties(
-                "spring.config.location="
-                    + "file:C:\\Users\\joonghyun\\Documents\\config\\application.yml")
+                "spring.config.additional-location="
+                    + "file:\\C:\\Users\\joonghyun\\Documents\\config\\application.yml"
+
+            )
             .run(args);
     }
 }
