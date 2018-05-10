@@ -7,10 +7,8 @@ cloud:
     region:
       auto: false
       static: ap-northeast-2
-    corePoolSize: 30
-    maxPoolSize : 30
 
 server:
-  port: 8090
+  port: 8091
 
 debug: true
